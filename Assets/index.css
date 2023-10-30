@@ -139,11 +139,18 @@ footer {
   color: #fff;
   padding: 5px 0;
 }
+footer .foot-div1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+
+}
 
 footer h4 {
   color: #ff7f50;
-  font-size: 22px;
-    margin: 5px 0;
+  font-size: 25px;
+  margin: 0 20px;
 }
 footer .contact a{
     background-color: lightblue;
@@ -158,13 +165,13 @@ footer .socials {
   margin-top: 10px;
   word-spacing: 5px;
 }
-footer .socials a {
+footer .socials a{
   font-size: 22px;
   margin: 0 10px;
   color: lightblue;
 }
 footer .socials a:hover {
-  color: fff;
+  color: #fff;
 }
 footer .copyright {
   margin-top: 15px;
