@@ -50,6 +50,9 @@ header span {
 header span:hover {
   font-size: 2rem;
 }
+header #nav{
+  display: none;
+}
 
 header #ul {
   display: flex;
@@ -221,7 +224,7 @@ footer .copyright {
         background-color: #808080;
     }
     header #nav{
-      display: inline-block;
+      display: block;
     }
     h2{
       font-size: 22px;

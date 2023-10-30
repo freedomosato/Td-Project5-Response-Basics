@@ -1,6 +1,5 @@
 let navEl = document.getElementById("nav");
 
-console.log(navEl);
 
 function faBars() {
   if (navEl.style.display === "block") {
@@ -8,5 +7,4 @@ function faBars() {
   } else{
     navEl.style.display = "block";
   }
-    console.log(4-2)
 }
