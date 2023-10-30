@@ -50,9 +50,6 @@ header span {
 header span:hover {
   font-size: 2rem;
 }
-header #nav{
-  display: none;
-}
 
 header #ul {
   display: flex;
@@ -175,7 +172,7 @@ footer .copyright {
 
 /*media query*/
 
-@media(min-width: 400px) {
+@media(min-width: 414px) {
     main #img img{
         width: 350px;
         height: 300px;
@@ -183,7 +180,7 @@ footer .copyright {
 
 }
 
-@media(min-width: 759px) {
+@media(min-width: 769px) {
     main #img{
         flex-direction: row;
         flex-wrap: wrap;
@@ -215,5 +212,11 @@ footer .copyright {
     }
     header ul li{
         background-color: #808080;
+    }
+    header #nav{
+      display: inline-block;
+    }
+    h2{
+      font-size: 22px;
     }
 }
